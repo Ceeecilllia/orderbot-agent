@@ -1,0 +1,31 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+mykeys.py
+**/mykeys.py
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+# Python environments and generated files
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+logs/
+# Local historical prototypes and saved outputs; never part of the public app
+assistant_orderbot.py
+orderbot_free.py
+chat_app.ipynb
+# Only reviewed images in docs/images are published
+/*.png
+# Private chronological notes remain local; public summaries live in docs
+/VERIFICATION.md
+/REAL_MODEL_ACCEPTANCE.md
